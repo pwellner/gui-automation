@@ -1,3 +1,7 @@
+#
+# To trigger action do the following:
+# curl -X POST http://localhost:5000/trigger
+
 from flask import Flask, request, jsonify
 import pyautogui
 import threading
